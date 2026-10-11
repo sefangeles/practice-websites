@@ -3,53 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="sef.css" />
-    <title>Document</title>
+
+    <title>Sef Angeles | Portfolio</title>
   </head>
+
   <body>
-    <!--BG -->
+    <!-- HERO SECTION -->
     <section class="hero">
+      <!-- DARK OVERLAY -->
       <div class="overlay"></div>
 
-      <!--NAVIGATION-->
+      <!-- NAVIGATION -->
       <nav>
         <div class="logo">SA<span>.</span></div>
+
         <ul class="naiv">
-          <li><a href="">Home</a></li>
-          <li><a href="">About Me</a></li>
-          <li><a href="">Projects</a></li>
+          <li><a href="#home">Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
 
-      <div class="showreel">
-        <span></span>
-        SHOWREEL '25
-      </div>
+      <!-- HERO CONTENT -->
+      <div class="hero-content">
+        <div class="showreel">
+          <span></span>
+          SHOWREEL '25
+        </div>
 
-      <h1>
-        SEF <b>|</b> <br />
-        ANGELES<b>.</b>
-      </h1>
+        <h1>
+          SEF<br />
+          ANGELES<span>.</span>
+        </h1>
 
-      <h2>PROGRAMMER &amp; CREATIVE</h2>
+        <h2>PROGRAMMER &amp; CREATIVE</h2>
 
-      <div class="buttons">
-        <a href="project" class="btn primary"> VIEW MY WORK </a>
+        <div class="buttons">
+          <a href="#projects" class="btn primary">
+            VIEW MY WORK
+            <span>↓</span>
+          </a>
 
-        <a href="#contact" class="btn secondary"> GET IN TOUCH </a>
+          <a href="#contact" class="btn secondary"> GET IN TOUCH </a>
+        </div>
       </div>
     </section>
 
-    <section class="me" id="me">
-      <div class="section title">
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <div class="section-title">
         <span></span>
-        WHO AM I?
+        ABOUT ME
       </div>
 
-      <div class="about contents">
+      <div class="about-content">
         <h2>
-          TURNING <br />
-          <span>IDEAS</span>INTO<br />
+          TURNING<br />
+          <span>IDEAS</span> INTO<br />
           SOMETHING REAL.
         </h2>
 
@@ -66,6 +78,85 @@
       </div>
     </section>
 
-    <section class="projects"></section>
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+      <div class="section-title">
+        <span></span>
+        MY WORK
+      </div>
+
+      <div class="project-grid">
+        <div class="project">
+          <div class="project-number">01</div>
+
+          <h3>
+            BUDGET<br />
+            TRACKER
+          </h3>
+
+          <p>
+            Python application for managing expenses, categories, and personal
+            budgets.
+          </p>
+
+          <a href="#"> VIEW MY PROJECT →</a>
+        </div>
+
+        <div class="project">
+          <div class="project-number">02</div>
+
+          <h3>
+            WEB<br />
+            DEVELOPMENT
+          </h3>
+
+          <p>
+            Creating websites and web projects using HTML, CSS, and JavaScript.
+          </p>
+
+          <a href="#"> VIEW MY PROJECT →</a>
+        </div>
+
+        <div class="project">
+          <div class="project-number">03</div>
+
+          <h3>
+            C PROGRAMMING<br />
+            PROJECTS
+          </h3>
+
+          <p>
+            Bank System, Student Record System, and other C programming
+            projects.
+          </p>
+
+          <a href="#"> VIEW MY PROJECT →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="section-title">
+        <span></span>
+        GET IN TOUCH
+      </div>
+
+      <h2>
+        LET'S MAKE<br />
+        SOMETHING <span>GREAT.</span>
+      </h2>
+
+      <a href="mailto:seproispogi@gmail.com" class="contact-button">
+        CONTACT ME →
+      </a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2025 SEF ANGELES. ALL RIGHTS RESERVED.</p>
+
+      <p>BICOL UNIVERSITY · PHILIPPINES</p>
+    </footer>
   </body>
 </html>
