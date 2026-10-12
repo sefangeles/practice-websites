@@ -327,7 +327,7 @@ h2 {
   color: #111;
 }
 
-.prjects-grid {
+.projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
